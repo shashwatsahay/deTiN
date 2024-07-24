@@ -20,10 +20,10 @@ setup(
     entry_points={"console_scripts": ["deTiN = deTiN.deTiN:main"]},
     install_requires=[
         "numpy",
-        "matplotlib==3.1.3",
-        "pandas==1.0.0",
+        "matplotlib",
+        "pandas",
         "scipy",
-        "sklearn",
+        "scikit-learn",
         "argparse",
         "random2",
     ],
